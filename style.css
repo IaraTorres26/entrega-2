@@ -1,50 +1,64 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+    list-style: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
 
 body{
-    background-color: #111111;
+    background-color: rgba(17, 17, 17, 0.85);
 }
 
 /*-----------------HEADER------------------------*/
 nav{
-    background-color: #111111;
-    padding-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    background: #111111;
+    height: 6rem;
+    width: 100%;
 }
-
-ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 3rem;
+.enlace{
+    position: absolute;
 }
-
-li{
+.logo{
+    height: 5.3rem;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
     display: inline-block;
-    margin-top: 4rem;
-    padding-left: 1rem;
-    text-transform: uppercase;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: #fff;
     font-size: 1rem;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
 }
 
-a{
-    text-decoration: none;
-    color: rgba(255, 255, 255, 0.686);
-    margin-right: 3rem;
-    transition: 0.4s;
+li a:hover{
+    color: rgb(218, 235, 96);
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
 }
 
-.nav__logo--img{
-    height: 5.5rem;
-    margin-left: 0rem;
-    padding-left: 2rem;
-}
-
-a:hover{
-    color: #eedb0ad4;
+#check{
+    display: none;
 }
 
 
@@ -517,26 +531,13 @@ footer h4{
 /*--------------------desktop----------------------*/
 @media (min-width: 1280px){
     /* navbar */
-    ul{
-        margin-right: 1.5rem;
+    nav ul li{
+        margin: 0 10px;
     }
-    li{
-        display: inline-block;
-        margin-top: 3rem;
-        padding-left: 1.5rem;
-        text-transform: uppercase;
-        font-size: 1.4rem;
+    nav ul li a{
+        font-size: 1.3rem;
     }
-    a{
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.686);
-        margin-right: 2.5rem;
-    }
-    .nav__logo--img{
-        height: 6rem;
-        margin-left: 0rem;
-        padding-left: 2rem;
-    }
+    
     /* inicio */
     .section-index::before{
         height: 30vh;
@@ -595,26 +596,13 @@ footer h4{
 /*---------------tablet-and-desktop-------------------*/
 @media (min-width: 769px) and (max-width: 1279px) {
     /* navbar */
-    ul{
-        margin-right: 0.5rem;
+    nav ul li{
+        margin: 0 8px;
     }
-    li{
-        display: inline-block;
-        margin-top: 4rem;
-        padding-left: 0.5rem;
-        text-transform: uppercase;
-        font-size: 0.9rem;
+    nav ul li a{
+        font-size: 1.1rem;
     }
-    a{
-        text-decoration: none;
-        color: rgba(255, 255, 255, 0.686);
-        margin-right: 1.7rem;
-    }
-    .nav__logo--img{
-        height: 5.5rem;
-        margin-left: 0rem;
-        padding-left: 2rem;
-    }
+
     /* inicio */
     .section-index::before{
         height: 28vh;
@@ -669,40 +657,58 @@ footer h4{
 /*---------------phone-and-tablet--------------------*/
 @media (min-width: 481px) and (max-width: 768px){
     /* navbar */
+    .checkbtn{
+        display: block;
+    }
     ul{
-        margin-right: 0rem;
-    }
-    a{
-        margin-right: 0rem;
-    }
-    li{
-        display: none;
-    }
-    .nav__logo--img{
-        height: 4.8rem;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        background: #323232;
+        top: 6rem;
+        left: -100%;
+        height: 260vh;
         text-align: center;
-        padding-left: 0rem;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: rgb(218, 235, 96);
+    }
+    #check:checked ~ ul{
+        left:0;
     }
 
     /* inicio */
-    .section-index::before{
-        height: 30vh;
-        margin-top: 29rem;  
-    }
-    .content__section h2{
-        font-size: 0.9rem;
-        font-weight: 900;
-        margin-top: 1rem;
-    }
+
     .content__section h1{
         font-size: 1.2rem;
         font-weight: 900;
         padding-top: 29rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
     
     }   
     .content__section h1 span{
-        font-size: 1.7rem;
+        font-size: 1.6rem;
+    }
+    
+    .section-index::before{
+        height: 34vh;
+        margin-top: 28rem;  
+    }
+    .content__section h2{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-top: 0.8rem;
+        color: #000000ca;
     }
 
     /* sobremi */
@@ -743,19 +749,34 @@ footer h4{
 
     /* navbar */
 
+    .checkbtn{
+        display: block;
+    }
     ul{
-        margin-right: 0rem;
-    }
-    a{
-        margin-right: 0rem;
-    }
-    li{
-        display: none;
-    }
-    .nav__logo--img{
-        height: 4.5rem;
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        background: #323232;
+        top: 6rem;
+        left: -100%;
+        height: 260vh;
         text-align: center;
-        padding-left: 0rem;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover{
+        background: none;
+        color: rgb(218, 235, 96);
+    }
+    #check:checked ~ ul{
+        left:0;
     }
 
     /* inicio */
@@ -764,7 +785,7 @@ footer h4{
         font-size: 1rem;
         font-weight: 900;
         padding-top: 29rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
     
     }   
     .content__section h1 span{
@@ -923,5 +944,6 @@ footer h4{
 
     footer{
         position: absolute;
+        text-align: center;
     }
 }

@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: rgba(17, 17, 17, 0.85);
+    background-color: #111111;
 }
 
 /*-----------------HEADER------------------------*/
@@ -529,7 +529,7 @@ footer h4{
 -----------------------------------------------------*/
 
 /*--------------------desktop----------------------*/
-@media (min-width: 1280px){
+@media (min-width: 1281px){
     /* navbar */
     nav ul li{
         margin: 0 10px;
@@ -545,11 +545,12 @@ footer h4{
     }
     .content__section h2{
         font-size: 1.3rem;
-        margin-top: 1rem;
         font-weight: 600;
+        margin-top: 0.8rem;
+        color: #000000ca;
     }
     .content__section h1{
-        font-size: 1.9rem;
+        font-size: 2rem;
         padding-top: 29rem;
         padding-bottom: 1rem;
     
@@ -594,7 +595,7 @@ footer h4{
 }
 
 /*---------------tablet-and-desktop-------------------*/
-@media (min-width: 769px) and (max-width: 1279px) {
+@media (min-width: 769px) and (max-width: 1280px) {
     /* navbar */
     nav ul li{
         margin: 0 8px;
@@ -606,22 +607,23 @@ footer h4{
     /* inicio */
     .section-index::before{
         height: 28vh;
-        margin-top: 28.5rem;  
+        margin-top: 27rem;  
     }
     .content__section h2{
-        font-size: 1rem;
-        font-weight: 1000;
-        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 0.8rem;
+        color: #000000ca;
     }
     .content__section h1{
-        font-size: 1.2rem;
+        font-size: 1.6rem;
         font-weight: 900;
         padding-top: 29rem;
         padding-bottom: 1rem;
     
     }   
     .content__section h1 span{
-        font-size: 1.7rem;
+        font-size: 2rem;
     }
 
     /* sobremi */
@@ -690,23 +692,23 @@ footer h4{
     /* inicio */
 
     .content__section h1{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         font-weight: 900;
         padding-top: 29rem;
         padding-bottom: 0rem;
     
     }   
     .content__section h1 span{
-        font-size: 1.6rem;
+        font-size: 1.9rem;
     }
     
     .section-index::before{
-        height: 34vh;
-        margin-top: 28rem;  
+        height: 30vh;
+        margin-top: 27rem;  
     }
     .content__section h2{
-        font-size: 1rem;
-        font-weight: 600;
+        font-size: 1.3rem;
+        font-weight: 900;
         margin-top: 0.8rem;
         color: #000000ca;
     }
@@ -793,8 +795,8 @@ footer h4{
     }
     
     .section-index::before{
-        height: 34vh;
-        margin-top: 28rem;  
+        height: 25vh;
+        margin-top: 27.5rem;  
     }
     .content__section h2{
         font-size: 0.85rem;

@@ -1,0 +1,285 @@
+@media (min-width: 1281px){
+    /*---------------navbar----------------*/
+    nav ul li{
+        margin: 0 10px;
+    }
+    nav ul li a{
+        font-size: 1.3rem;
+    }
+    
+    /*---------------inicio---------------------*/
+    .section-index::before{
+        height: 30vh;
+        margin-top: 27rem;  
+    }
+    .content__section h2{
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 0.8rem;
+        color: #000000ca;
+    }
+    .content__section h1{
+        font-size: 2rem;
+        padding-top: 29rem;
+        padding-bottom: 1rem;
+    
+    }   
+    .content__section h1 span{
+        font-size: 2.3rem;
+    }
+
+    /*------------------------sobremi-------------------*/
+
+    .main-sobremi{
+        height: auto;
+    }
+    .main-sobremi div h1{
+        margin-top: 50px;
+        margin-bottom: 30px;
+        font-size: 1.7rem;
+    }
+    .main-sobremi div img{
+        margin-bottom: 3rem;
+        width: 80%;
+        height: auto;
+    }
+    .main-sobremi div p{
+        margin-bottom: 10px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        font-size: 1rem;
+        font-weight: 550;
+    }
+    
+    /*---------------proyectos---------------*/
+
+    .main-proyectos{
+        height: auto;
+    }
+
+    .proyectos-especificados h3{
+        font-size: 2.5vw;
+    }
+    
+    .proyectos-especificados h3 span{
+        font-size: 1.8vw;
+    }
+
+    /* grupo1 */
+    .grupos1__texto {
+        font-size: 1.8vw;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+
+    .grupos1__texto h4{
+        font-size: 2.3vw;
+    }
+    
+    .grupos1__texto h5{
+        font-size: 1.85vw;
+    }
+
+    /* grupo2 */
+    .grupos2__texto {
+        font-size: 1.8vw;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem; 
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+
+    .grupos2__texto h4{
+        font-size: 2.3vw;
+    }
+    
+    .grupos2__texto h5{
+        font-size: 1.85vw;
+    }
+
+    /* grupo3 */
+    .grupos3__texto {
+        font-size: 1.8vw;
+        margin-left: 1.2rem;
+        margin-right: 1.2rem;
+        margin-top: 5rem;
+        margin-bottom: 0rem;
+    }
+
+    .grupos3__texto h4{
+        font-size: 2.3vw;
+    }
+    
+    .grupos3__texto h5{
+        font-size: 1.85vw;
+    }
+
+    /* --------------contacto-------------------- */
+
+    .main-contacto {
+        height: auto;
+        color: #ffffffd8;
+    }
+      
+    .container-form {
+        width: 100%;
+        max-width: none;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 90px;
+    }
+      
+    .container-form h2 {
+        margin-bottom: 15px;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        margin-left: 7rem;
+    }
+      
+    .container-form a {
+        font-size: 1.1rem;
+        display: inline-block;
+        text-decoration: none;
+        width: 100%;
+        margin-bottom: 3rem;
+        color: rgb(255, 255, 255);
+        font-weight: 520;
+        margin-left: 7rem;
+        margin-right: 5rem;
+    }
+      
+    .container-form a i {
+        color: rgb(255, 255, 255);
+        margin-right: 10px;
+    }
+      
+    .container-form form .campo,
+      textarea {
+        width: 35rem;
+        padding: 15px 10px;
+        font-size: 15px;
+        background-color: #111111;
+        border: 2px solid #ffffff;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 0px;
+        color: #ffffff;
+    }
+      
+    .container-form form p {
+        font-size: 1rem;
+        font-weight: 540;
+    }
+      
+    .container-form form .textarea-contacto {
+        max-width: 530px;
+        min-width: 560px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+    
+    .container-form .btn-enviar {
+        padding: 13px;
+        font-size: 16px;
+        border: none;
+        outline: 0px;
+        background: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 300ms ease;
+    }
+      
+    .container-form .btn-enviar:hover {
+        background: #ffffff8a;
+    }
+
+    /*----------------reseña------------------*/
+
+    .main-reseña{
+        height: auto;
+        color: #ffffffd8;
+    }
+    
+    .img__reseña{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    
+    .img__reseña img{
+        width: 80%;
+    }
+    
+    .container-form2 h2{
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .container-form2 p{
+        font-size: 1.15rem;
+        text-align: center;
+    }
+    
+    .container-form2 form div .campo, textarea{
+        width: 40.4vw;
+        color: #fff;
+    }
+    
+    .container-form2 .formulario__reseña .textarea{
+        width: 82vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        color: #ffffff;
+    }
+    
+    .container-form2 .btn-enviar{
+        margin-top: 1rem;
+        margin-left: 0rem;
+        width: 6rem;
+    }
+    
+    #si, #no{
+        width: 1.3rem;
+        height: 1.3rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    
+    }
+    
+    form div label{
+        margin-right: 0rem;
+        font-weight: 600;
+        margin-right: 3rem;
+    }
+    
+    .formulario__reseña{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        word-break: break-word;
+    }
+    
+    .buttton__div{
+        margin-left: 1rem;
+    }
+    
+    .container-form2 form p{
+        text-align: left;
+        font-size: 1rem;
+        display: inline-block;
+        margin-right: 0rem;
+        margin-bottom: 0;
+    }
+
+    /* fottter */
+
+    footer{
+        position: absolute;
+        margin-top: 2rem;
+
+    }
+
+}

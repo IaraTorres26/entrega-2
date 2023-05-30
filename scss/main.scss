@@ -1,0 +1,55 @@
+@import"./variables";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $color-NegroBase;
+}
+
+/*-------------------HEADER--------------------------*/
+@import "./pages_sections/header";
+
+
+
+/*-------------------MAIN-index----------------------*/
+@import "./pages_scss/index";
+
+/*-------------------MAIN-sobremi--------------------*/
+@import"./pages_scss/sobremi";
+
+/*-------------------MAIN-proyectos------------------*/
+@import"./pages_scss/proyectos";
+
+/*-------------------MAIN-contacto-------------------*/
+@import"./pages_scss/contacto";
+
+/*-------------------MAIN-reseña---------------------*/
+@import"./pages_scss/reseña";
+
+
+
+/*-------------------FOOTER---------------------------*/
+@import"./pages_sections/footer";
+
+
+
+/*-------------------RESPONSIVE-----------------------*/
+
+/*-------------------desktop--------------------------*/
+@import"./pages_sections/responsive-desktop";
+
+/*-------------------tablet-and-desktop---------------*/
+@import"./pages_sections/responsive-tabletAndDesktop";
+
+/*-------------------phone-and-tablet-----------------*/
+@import"./pages_sections/responsive-phoneAndTablet";
+
+/*-------------------phone----------------------------*/
+@import"./pages_sections/responsive-phone";

@@ -1,0 +1,159 @@
+.main-proyectos{
+    height: 450vh;
+}
+
+/*carrusel*/
+
+.text h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #ffffffd5;
+}
+.text h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.3rem;
+    color: #ffffffd5;
+    margin-bottom: 2rem;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+      background-color: rgb(139, 137, 16);
+      border-radius: 30%;
+}
+
+/*proyectos especificos*/
+
+.proyectos-especificados h3{
+   color: rgba(255, 255, 255, 0.81);
+    text-align: center;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.proyectos-especificados h3 span{
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.4);
+} 
+
+/*proyectos especificos ----grupo 1*/
+
+.grupos1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "imagen texto";
+}
+  
+.img__grupos1 {
+    grid-area: imagen;
+    width: 100%;
+    height: auto;
+}
+  
+.grupos1__texto {
+    grid-area: texto;
+    width: 100%;
+    color: #ffffffe7;
+    width: 45vw;
+    height: auto;
+    font-size: 1.8vw;
+    margin-top: 5rem;
+    margin-left: 1.9rem;
+    margin-right: 1.9rem; 
+    margin-bottom: 5rem;
+    word-break: break-word;
+}
+
+.grupos1__texto h4{
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-bottom: 2rem; 
+}
+
+.grupos1__texto h5{
+    margin-bottom: 1.4vw;
+    color: #ffffff7f;
+
+}
+  
+/*proyectos especificos ----grupo 2*/
+
+.grupos2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "texto imagen";
+}
+  
+.img__grupos2 {
+    grid-area: imagen;
+    width: 100%;
+    height: auto;
+}
+  
+.grupos2__texto {
+    grid-area: texto;
+    width: 100%;
+    color: #ffffffe7;
+    width: 45vw;
+    height: auto;
+    font-size: 1.8vw;
+    margin-top: 5rem;
+    margin-left: 1.9rem;
+    margin-right: 1.9rem;  
+    margin-bottom: 5rem;
+    word-break: break-word;
+}
+
+.grupos2__texto h4{
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-bottom: 2rem; 
+}
+
+.grupos2__texto h5{
+    margin-bottom: 1.4vw;
+    color: #ffffff7f;
+
+}
+
+/*proyectos especificos ----grupo 3*/
+
+.grupos3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "imagen texto";
+}
+  
+.img__grupos3 {
+    grid-area: imagen;
+    width: 100%;
+    height: auto;
+}
+  
+.grupos3__texto {
+    grid-area: texto;
+    width: 100%;
+    color: #ffffffe7;
+    width: 45vw;
+    height: auto;
+    font-size: 1.8vw;
+    margin-top: 5rem;
+    margin-left: 1.9rem;
+    margin-right: 1.9rem; 
+    margin-bottom: 5rem;
+    word-break: break-word;
+}
+
+.grupos3__texto h4{
+    font-size: 2vw;
+    text-transform: uppercase;
+    margin-bottom: 2rem; 
+}
+
+.grupos3__texto h5{
+    margin-bottom: 1.4vw;
+    color: #ffffff7f;
+    font-size: 1.4vw;
+}

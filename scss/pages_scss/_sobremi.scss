@@ -1,0 +1,49 @@
+.main-sobremi{
+    height: 145vh;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.768);
+}
+
+.main-sobremi div h1{
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 1.8rem;
+}
+
+.main-sobremi div img{
+    margin-bottom: 5rem;
+    height: 30rem;
+    position: relative;
+
+}
+
+.main-sobremi div p{
+    margin-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+.card-1{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    color: #fff;
+}
+
+.card-text{
+    display: flex;
+    text-align: left;
+}
+
+.card-img{
+    border-bottom-left-radius: var(--bs-card-inner-border-radius);
+}

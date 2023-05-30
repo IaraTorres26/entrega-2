@@ -446,6 +446,7 @@ textarea {
 
 .container-form2 form div .campo, textarea {
   width: 32rem;
+  color: #fff;
   padding: 15px 8px;
   padding-left: 0.7rem;
   padding-right: 2.9rem;

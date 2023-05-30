@@ -72,7 +72,7 @@ li a:hover {
 
 /*-------------------MAIN-index----------------------*/
 .main-index {
-  background-image: url(../../img/img-inicio.jpg);
+  background-image: url(../img/img-inicio.jpg);
   background-size: cover;
   background-position: center;
   height: 60rem;

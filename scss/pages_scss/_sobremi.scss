@@ -5,10 +5,8 @@
 }
 
 .main-sobremi div h1{
-    text-transform: uppercase;
     margin-top: 50px;
     margin-bottom: 30px;
-    font-size: 1.8rem;
 }
 
 .main-sobremi div img{
@@ -37,6 +35,9 @@
     align-items: center;
     background-color: #111111;
     color: #fff;
+    margin-left: 1rem;
+    margin-right: 3.5rem;
+    margin-top: 3rem;
 }
 
 .card-text{
@@ -46,4 +47,23 @@
 
 .card-img{
     border-bottom-left-radius: var(--bs-card-inner-border-radius);
+}
+
+.sobremi-img{
+    display: inline-block;
+    width: 20rem;
+    margin-right: 1rem;
+    margin-left: 3.5rem;
+    margin-top: 2.5rem;
+    transition: 1s;
+}
+
+.sobremi-img:hover{
+    width: 22rem;
+}
+
+.sobremi-img h4{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #ffffffd8;
 }

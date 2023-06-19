@@ -121,10 +121,8 @@ li a:hover {
 }
 
 .main-sobremi div h1 {
-  text-transform: uppercase;
   margin-top: 50px;
   margin-bottom: 30px;
-  font-size: 1.8rem;
 }
 
 .main-sobremi div img {
@@ -160,6 +158,9 @@ li a:hover {
           align-items: center;
   background-color: #111111;
   color: #fff;
+  margin-left: 1rem;
+  margin-right: 3.5rem;
+  margin-top: 3rem;
 }
 
 .card-text {
@@ -171,6 +172,26 @@ li a:hover {
 
 .card-img {
   border-bottom-left-radius: var(--bs-card-inner-border-radius);
+}
+
+.sobremi-img {
+  display: inline-block;
+  width: 20rem;
+  margin-right: 1rem;
+  margin-left: 3.5rem;
+  margin-top: 2.5rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.sobremi-img:hover {
+  width: 22rem;
+}
+
+.sobremi-img h4 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: rgba(255, 255, 255, 0.8470588235);
 }
 
 /*-------------------MAIN-proyectos------------------*/
@@ -446,7 +467,7 @@ textarea {
 
 .container-form2 form div .campo, textarea {
   width: 32rem;
-  color: #fff;
+  color: #ffffff;
   padding: 15px 8px;
   padding-left: 0.7rem;
   padding-right: 2.9rem;
@@ -601,7 +622,7 @@ footer h4 {
   .main-sobremi div h1 {
     margin-top: 50px;
     margin-bottom: 30px;
-    font-size: 1.7rem;
+    font-size: 2.3rem;
   }
   .main-sobremi div img {
     margin-bottom: 3rem;
@@ -614,6 +635,17 @@ footer h4 {
     padding-right: 4rem;
     font-size: 1rem;
     font-weight: 550;
+  }
+  .card {
+    margin-left: 1rem;
+    margin-right: 6%;
+    margin-top: 3rem;
+  }
+  .sobremi-img {
+    width: 20rem;
+    margin-right: 1rem;
+    margin-left: 6%;
+    margin-top: 2.5rem;
   }
   /*---------------proyectos---------------*/
   .main-proyectos {
@@ -849,7 +881,7 @@ footer h4 {
   .main-sobremi div h1 {
     margin-top: 50px;
     margin-bottom: 30px;
-    font-size: 1.5rem;
+    font-size: 2.3rem;
   }
   .main-sobremi div img {
     margin-bottom: 3rem;
@@ -862,6 +894,17 @@ footer h4 {
     padding-right: 4rem;
     font-size: 1rem;
     font-weight: 550;
+  }
+  .card {
+    margin-left: 1rem;
+    margin-right: 6%;
+    margin-top: 3rem;
+  }
+  .sobremi-img {
+    width: 20rem;
+    margin-right: 1rem;
+    margin-left: 6%;
+    margin-top: 2.5rem;
   }
   /*-------------proyectos--------------*/
   .main-proyectos {
@@ -1121,7 +1164,7 @@ footer h4 {
   .main-sobremi div h1 {
     margin-top: 50px;
     margin-bottom: 30px;
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
   .main-sobremi div img {
     margin-bottom: 3rem;
@@ -1134,6 +1177,27 @@ footer h4 {
     padding-right: 3rem;
     font-size: 1rem;
     font-weight: 550;
+  }
+  .card-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .sobremi-img {
+    width: 18rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   /*-------------------proyectos--------------- */
   .main-proyectos {
@@ -1340,6 +1404,7 @@ footer h4 {
   }
   .container-form2 form div .campo, textarea {
     width: 40vw;
+    color: #ffffff;
   }
   .container-form2 .formulario__reseña .textarea {
     width: 82.5vw;
@@ -1452,7 +1517,7 @@ footer h4 {
   .main-sobremi div h1 {
     margin-top: 50px;
     margin-bottom: 30px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .main-sobremi div img {
     margin-bottom: 3rem;
@@ -1465,6 +1530,28 @@ footer h4 {
     padding-right: 15px;
     font-size: 1rem;
     font-weight: 550;
+  }
+  .card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+  }
+  .card-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .sobremi-img {
+    width: 18rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   /*-------------------proyectos--------------- */
   .main-proyectos {
@@ -1671,6 +1758,7 @@ footer h4 {
   }
   .container-form2 form div .campo, textarea {
     width: 40vw;
+    color: white;
   }
   .container-form2 .formulario__reseña .textarea {
     width: 84vw;
